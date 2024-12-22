@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketIO & Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script defer src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <h1>SocketIO & Python</h1>
+
+    <form action="/" method="post" name="chat-user">
+        <div>
+            <input type="text" name="nickname" tabindex="1" value="yo-mismo" />
+        </div>
+        <div>
+            <input type="color" name="color" tabindex="2" value="#4db34d" />
+        </div>
+        <div>
+            <input type="submit" tabindex="3" value="Iniciar chat" />
+        </div>
+    </form>
+
+    
+</body>
+</html>

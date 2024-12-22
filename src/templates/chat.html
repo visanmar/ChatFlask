@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketIO & Python (chat)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/socket.io.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SocketIO & Python (chat)</h1>
+        
+        <h3 id="nickname"></h3>
+        <a href="/">Salir del chat</a>
+        <div>
+            <ul id="messages">
+            </ul>
+        </div>
+        <div>
+            <textarea id="myMessage" spellcheck="false"></textarea>
+            <div id="send-container">
+                <button id="send">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
