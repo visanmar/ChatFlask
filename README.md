@@ -1,4 +1,5 @@
 # Basic Python Flask+socket.io chat
+Working example using Flask and socket.io
 
 ## Requirements and initialization
 
