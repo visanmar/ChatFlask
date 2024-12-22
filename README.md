@@ -19,3 +19,5 @@ pip install python-socketio
 ```cmd
 python ./src/main.py
 ```
+### Prove in some web browsers
+[Prove chat](http://localhost:5000/)
