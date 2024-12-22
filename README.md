@@ -21,3 +21,4 @@ python ./src/main.py
 ```
 ### Prove in some web browsers
 [http://localhost:5000/]{:target="_blank"}(http://localhost:5000/)
+<a href="[placeholder.com](http://localhost:5000/)" target="_blank">[Opens in new tab](http://localhost:5000/)</a>
