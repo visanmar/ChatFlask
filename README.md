@@ -20,4 +20,4 @@ pip install python-socketio
 python ./src/main.py
 ```
 ### Prove in some web browsers
-[http://localhost:5000/](http://localhost:5000/)
+[http://localhost:5000/]{:target="_blank"}(http://localhost:5000/)
