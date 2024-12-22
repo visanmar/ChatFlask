@@ -1,4 +1,4 @@
-# Basic Python Flask+socketio chat
+# Basic Python Flask+socket.io chat
 
 ## Requirements and initialization
 
