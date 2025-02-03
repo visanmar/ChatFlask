@@ -58,4 +58,4 @@ def the_main_app():
 
 
 if __name__ == '__main__':
-	main()
+	the_main_app()
