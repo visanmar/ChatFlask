@@ -50,7 +50,7 @@ def handleMessage(msg):
 
 
 
-def main():
+def the_main_app():
     #socketio.run(app, debug=True, host='0.0.0.0', port=4000)
     socketio.run(app, debug=False, allow_unsafe_werkzeug=True)
 
