@@ -7,10 +7,6 @@ app.config['SECRET KEY'] = 'secret'
 socketio = SocketIO(app)
 
 
-def main():
-    #socketio.run(app, debug=True, host='0.0.0.0', port=4000)
-    socketio.run(app, debug=True, allow_unsafe_werkzeug=True)
-
 
 @app.route('/', methods=['GET'])
 def index():
@@ -50,6 +46,13 @@ def handleMessage(msg):
     print('message:', msg)
 
     send(msg, broadcast=True)
+
+
+
+
+def main():
+    #socketio.run(app, debug=True, host='0.0.0.0', port=4000)
+    socketio.run(app, debug=False, allow_unsafe_werkzeug=True)
 
 
 
