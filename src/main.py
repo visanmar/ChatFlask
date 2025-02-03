@@ -6,6 +6,11 @@ app = Flask(__name__)
 app.config['SECRET KEY'] = 'secret'
 socketio = SocketIO(app)
 
+
+def main:
+	socketio.run(app, debug=True, allow_unsafe_werkzeug=True)
+
+
 @app.route('/', methods=['GET'])
 def index():
     response = make_response()
